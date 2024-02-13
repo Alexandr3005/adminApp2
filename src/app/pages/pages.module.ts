@@ -6,6 +6,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
   declarations: [ DashboardComponent, 
@@ -15,7 +17,9 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    FormsModule,
+    ComponentsModule
     
   ],
   exports:[

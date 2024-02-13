@@ -9,16 +9,8 @@ import { AuthModule } from './auth/auth.module';
 @NgModule({
   declarations: [
     AppComponent,
-    NopagefoundComponent
-    //LoginComponent,
-    //RegisterComponent,
-    //BreadcrumbsComponent,
-    //SidebarComponent,
-    //HeaderComponent,
-    //DashboardComponent,
-    //ProgressComponent,
-   // Grafica1Component,
-   // PagesComponent
+    NopagefoundComponent,
+ 
   ],
   imports: [
     BrowserModule,
